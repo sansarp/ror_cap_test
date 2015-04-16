@@ -9,7 +9,7 @@ user: 'ec2-user',
 roles: %w{web app db},
 ssh_options: {
 user: 'ec2-user',
-keys: %w('/home/subash/ROR/ror.pem'),
+keys: %w(/home/subash/ROR/ror.pem),
 forward_agent: true,
 auth_methods: %w(publickey),
 port: 22

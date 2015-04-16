@@ -3,7 +3,7 @@
 set :initial, ENV['initial'] || 'false'
 
 #rvm version in server
-set :rvm_ruby_version, 'ruby-2.2.1'
+set :rvm_ruby_version, 'ruby-2.1.2'
 # set :default_env, { rvm_bin_path: '~/usr/local/rvm/scripts/bin' }
 
 
